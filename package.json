@@ -1,0 +1,11 @@
+{
+  "name": "wechat_app_file_uploader",
+  "version": "1.0.0",
+  "description": "file uploader util for wechat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoe ying",
+  "license": "ISC"
+}
