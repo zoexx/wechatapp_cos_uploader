@@ -20,6 +20,7 @@ wx.showLoading()
 cosUploader.upload( imageFilePath , 
   {
   	// signature 和 getSignatureFunc 二选一即可
+  	// 需要注意的是 getSignatureFunc 取到签名之后会缓存起来 ， 这里返回的签名最好是可多次使用的
     getSignatureFunc: function( callback ){
       fetchData({
         url : apiPrefix + 'api/qcloudToken',
